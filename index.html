@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>viditube</title>
+    <link rel="icon" href="used images/desktop" type="image/x-icon">
+    <style>
+      input{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="file" onchange="const fr=new FileReader(); fr.onload=()=>out.innerText=fr.result; fr.readAsText(this.files[0])">
+<pre id="out"></pre>
+
+
+  </body>
+</html>
